@@ -1,62 +1,47 @@
-# 🧬 DNA & Protein Sequence Toolkit
+# DNA & Protein Sequence Toolkit 🧬
 
-A beginner-friendly Python toolkit for performing basic DNA and protein sequence analysis.
+My first bioinformatics project!
 
-This project was built as my **first bioinformatics project**, combining biological concepts with Python programming and command-line based analysis.
+This is a small Python program I made to practice working with biological sequences and Python. It takes a DNA sequence from a FASTA file and performs some basic sequence analysis.
 
-## 🔬 Features
+### What it can do
 
-* DNA sequence length
-* GC% calculation
-* Nucleotide composition (A, T, G, C)
-* Reverse complement
-* DNA → RNA transcription
-* DNA → protein translation
-* Basic ORF detection
-* Amino-acid composition
-* Protein molecular weight
-* Motif searching
-* FASTA file input
+* Find sequence length
+* Calculate GC%
+* Count A, T, G and C
+* Find the reverse complement
+* Transcribe DNA into RNA
+* Translate DNA into protein
+* Find a basic ORF
+* Count amino acids
+* Calculate approximate molecular weight
+* Search for a motif
 
-## 🛠️ Technologies
+### Files
 
-* Python
-* FASTA format
-* Basic sequence analysis concepts
-* GitHub
+`main.py` — the main Python program
 
-## 🚀 How to Run
+`sequence.fasta` — sample DNA sequence used for testing
 
-1. Download or clone this repository.
-2. Make sure Python is installed.
-3. Place your FASTA file in the project folder.
-4. Run:
+### How to run
+
+Make sure Python is installed, then run:
 
 ```bash
 python main.py
 ```
 
-5. Choose an option from the menu.
+The program will show a menu where you can choose what you want to analyse.
 
-## 📁 Project Structure
+### Example
 
-```text
-DNA-Protein-Sequence-Toolkit/
-│
-├── main.py
-├── sequence.fasta
-└── README.md
-```
-
-## 🧪 Example
-
-Input DNA:
+For the sample sequence:
 
 ```text
 ATGAAACCCGGGTAA
 ```
 
-The toolkit can analyse the sequence and provide information such as:
+the program can give:
 
 ```text
 Length: 15
@@ -66,18 +51,9 @@ Protein: MKPG*
 ORF: ATGAAACCCGGGTAA
 ```
 
-## 🎯 Purpose
+### Why I made this
 
-The goal of this project is to strengthen my understanding of **bioinformatics, biological sequences, Python programming, and computational sequence analysis** through a practical project.
+I'm currently learning bioinformatics and wanted to start with something small that actually combines the biology I'm studying with programming.
 
-This is an evolving project, and future versions may include more advanced sequence-analysis features.
+This is a beginner project, so I'll probably keep improving it as I learn more. 🧬
 
----
-
-### 👩‍💻 Author
-
-**Pragya**
-
-MSc Bioinformatics Student
-
-This is my first bioinformatics project and the beginning of my journey into computational biology. 🧬💻
